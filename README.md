@@ -5,8 +5,7 @@ A simple QR generator website written in pure HTML, CSS and JS. This website uti
 
  - Generate QR codes with a single click. 
  - Downloadable QR codes. 
- - Completely responsive, supports multiple screen sizes. 
+ - Uses media queries to achieve responsiveness, supports multiple screen sizes. 
  - Small size - 29KB
  -  Extremely fast, since all the processing is done on the client side. 
  - Easy to deploy, just download this repository and click on `index.html` 
-
