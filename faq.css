@@ -1,0 +1,57 @@
+#body{
+    font-family: Kanit;
+    color: white;
+    background-color: #444343;
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+    text-align: center;
+}
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.hr-line{
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    color: white;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-weight: 100;
+}
+.faq-body{
+    margin: auto;
+    width: 50%;
+    padding: auto;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: #444343;
+    display: none;
+    overflow: hidden;
+}
+/* Unicode character for "plus" sign (+) */
+.faq-page:after {
+    content: '\02795';
+    font-size: 13px;
+    color:white;
+    float: right;
+    margin-left: 5px;
+}
+/* Unicode character for "minus" sign (-) */
+.active:after {
+    content: "\2796";
+}

@@ -1,0 +1,196 @@
+#header-container{
+  padding: 20px;
+  background:#1F1F1F;
+  color: white;
+  text-align: center;
+}
+#main-heading {
+  font-family:Kanit;
+  font-size:50px;
+}
+#qr-input-heading {
+  font-family:Kanit;
+  color: white;
+  font-weight: normal;
+  font-size:30px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background:#444343;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+li {
+  display: inline;
+  padding: 10px;
+  font-family:Kanit;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover {
+  color: blueviolet;
+}
+#qr-container {
+  background:#444343;
+  display: flex;
+  justify-content: center;
+}
+#input-container {
+  background:#444343;
+  display: flex;
+  justify-content: center;
+}
+#input-box{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  height: 50px;
+  width: 20%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #7a7a7a;
+  color: white;
+}
+#qr-code-display-area {
+  background:#444343;
+  display: flex;
+  justify-content: center;
+}
+#actual-qr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+#button-container{
+  display: flex;
+  justify-content: center;
+}
+#download-button{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1F1F1F;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+
+}
+
+@media screen and (max-width: 400px) {
+  #input-box {
+    width: 70%;
+    
+  }
+
+  #header-container{
+    padding: 10px;
+    background:#1F1F1F;
+    color: white;
+    text-align: center;
+  }
+
+  #qr-input-heading {
+    font-family:Kanit;
+    color: white;
+    font-weight: normal;
+    font-size:30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #main-heading {
+    font-family:Kanit;
+    font-size:40px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #input-box {
+    width: 70%;
+    
+  }
+
+  #header-container{
+    padding: 10px;
+    background:#1F1F1F;
+    color: white;
+    text-align: center;
+  }
+
+  #qr-input-heading {
+    font-family:Kanit;
+    color: white;
+    font-weight: normal;
+    font-size:30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #main-heading {
+    font-family:Kanit;
+    font-size:40px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #input-box {
+    width: 70%;
+    
+  }
+
+  #header-container{
+    padding: 10px;
+    background:#1F1F1F;
+    color: white;
+    text-align: center;
+  }
+
+  #qr-input-heading {
+    font-family:Kanit;
+    color: white;
+    font-weight: normal;
+    font-size:20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #main-heading {
+    font-family:Kanit;
+    font-size:40px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #input-box {
+    width: 80%;
+    
+  }
+
+  #header-container{
+    padding: 10px;
+    background:#1F1F1F;
+    color: white;
+    text-align: center;
+  }
+
+  #qr-input-heading {
+    font-family:Kanit;
+    color: white;
+    font-weight: normal;
+    font-size:20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #main-heading {
+    font-family:Kanit;
+    font-size:40px;
+  }
+}
