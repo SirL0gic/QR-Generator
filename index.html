@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <htm lang="en">
-	<head>
-		<title>QRGen</title>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
-		<link rel="stylesheet" href="main.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<meta charset="UTF-8">
-		<meta name="description" content="A basic website to generate QR codes using HTML, CSS and JavaScript">
-		<meta name="keywords" content="HTML, CSS, JavaScript, website, QR">
-		<meta name="author" content="Abis Ali">
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-	</head>
-	<body>
-		<header>
-			<div id="header-container">
-				<h1 id="main-heading">QR Code Generator</h1>
-				<nav>
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="faq.html">FAQ</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<div id="qr-container">
-			<h3 id="qr-input-heading">Enter text to generate the QR code</h3>
-		</div>
-		<div id="input-container">
-			<input id="input-box" type="text" value="Type & press enter">
-		</div>
-		<div id="qr-code-display-area">
-			<div id="actual-qr"></div>
-		</div>
-		<div id="button-container">
-			<a id="download-button" href="#" onclick="this.href = $('#qr-code-display-area img:first').attr('src');" download> Download QR </a>
-		</div>
-	</body>
-	<script src="main.js"></script>
-	</html>
+  <head>
+    <title>QRGen</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="A basic website to generate QR codes using HTML, CSS and JavaScript">
+    <meta name="keywords" content="HTML, CSS, JavaScript, website, QR">
+    <meta name="author" content="Abis Ali">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  </head>
+  <body>
+    <header>
+      <div id="header-container">
+        <h1 id="main-heading">QR Code Generator</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="qr-container">
+      <h3 id="qr-input-heading">Enter text to generate the QR code</h3>
+    </div>
+    <div id="input-container">
+      <input id="input-box" type="text" value="Type & press enter">
+    </div>
+    <div id="qr-code-display-area">
+      <div id="actual-qr"></div>
+    </div>
+    <div id="button-container">
+      <a id="download-button" href="#" onclick="this.href = $('#qr-code-display-area img:first').attr('src');" download> Download QR </a>
+    </div>
+  </body>
+  <script src="main.js"></script>
+  </html>
