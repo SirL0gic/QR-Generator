@@ -1,5 +1,6 @@
 ### Overview
 A simple QR generator website written in pure HTML, CSS and JS. This website utilizes the qrcode.js library by @davidshimjs. 
+Live Version: https://pmz4ii.csb.app/
 
 **Features**
 
